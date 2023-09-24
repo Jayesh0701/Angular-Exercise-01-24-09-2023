@@ -1,0 +1,32 @@
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+.parent-box {
+  width: 48%;
+  background: #f3f3f3;
+  border: 1px solid #d4c2c2;
+  padding: 15px !important;
+  border-radius: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.parent-box h2 {
+  color: rgb(109, 216, 127);
+  font-size: 42px;
+  margin: 0;
+  padding: 0;
+}
+.parent-box table {
+  font-size: 30px;
+}
+.parent-box table th {
+  background: rgb(236, 227, 227);
+}
+.remove-link {
+  color: rgb(230, 84, 84);
+  cursor: pointer;
+}
+.child-component {
+  width: 48%;
+}
